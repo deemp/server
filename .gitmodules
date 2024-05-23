@@ -1,0 +1,4 @@
+[submodule "core"]
+	url = https://github.com/triton-inference-server/core
+[submodule "common"]
+	url = https://github.com/triton-inference-server/common
