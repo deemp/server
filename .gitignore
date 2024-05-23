@@ -1,6 +1,6 @@
 /build
 /builddir
-/.vscode
+# /.vscode
 *.so
 __pycache__
 tmp

@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "*.html": "html",
+        "test_10": "plaintext",
+        "*.hs": "haskell",
+        "*.nix": "nix",
+        "*.py": "python",
+        "unordered_map": "cpp"
+    },
+    "C_Cpp.default.includePath": [
+        "${workspaceFolder}/src",
+        "${workspaceFolder}/core/include/triton",
+        "${workspaceFolder}/common/include/triton"
+    ]
+}
