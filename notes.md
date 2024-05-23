@@ -117,3 +117,13 @@ In `TritonModelInstance::Execute`, the requests are processed using a model exec
 And we don't know what happens to requests after that :|.
 Probably it's backend-dependent.
 
+TODO:
+
+- Get inference statistics from a backend.
+<https://github.com/triton-inference-server/core/blob/bbcd7816997046821f9d1a22e418acb84ca5364b/include/triton/core/tritonbackend.h#L1309-L1359>
+
+- Or, check the code around `TRITON_ENABLE_METRICS_GPU`.
+<https://github.com/deemp/server/blob/5ce0d96fec234af5d81307d0bc63ae90a9d5c807/CMakeLists.txt#L60>
+
+- Find out how these statistics get into a response.
+
